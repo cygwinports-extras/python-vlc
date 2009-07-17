@@ -1,0 +1,59 @@
+python-vlc
+------------------------------------------
+Python bindings for the VLC media player MediaControl API.
+
+Runtime requirements:
+  cygwin-1.7.0-51
+  libgcc1-4.3.2-2
+  libvlc2-1.0.0-1
+  python-2.5.4-10
+  python-gtk2-2.16.1-1 (optional, for vlcwidget)
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-2.19.51-1
+  cygport-0.9.8-1
+  gcc4-core-4.3.2-2
+  pkg-config-0.23b-10
+
+Canonical website:
+  http://www.videolan.org/
+  http://wiki.videolan.org/Python_bindings
+
+Canonical download:
+  VideoLAN Git
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-vlc-1.0.0.90-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-vlc-1.0.0.90-X.cygport all
+
+This will create:
+  /usr/src/python-vlc-1.0.0.90-X-src.tar.bz2
+  /usr/src/python-vlc-1.0.0.90-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/python_vlc-1.0.0.90-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/vlc.dll
+  /usr/lib/python2.5/site-packages/vlcwidget.py
+  /usr/lib/python2.5/site-packages/vlcwidget.pyc
+  /usr/lib/python2.5/site-packages/vlcwidget.pyo
+  /usr/share/doc/python-vlc/README
+
+------------------
+
+Port Notes:
+
+----- version 1.0.0.90-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

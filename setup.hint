@@ -1,0 +1,4 @@
+category: Audio Python Video
+requires: libgcc1 libvlc2 python
+sdesc: "Python VLC bindings"
+ldesc: "Python bindings for the VLC media player MediaControl API."

@@ -1,0 +1,7 @@
+GIT_URI="git://git.videolan.org/vlc.git"
+GIT_MODULE=${PN}
+GIT_SUBDIR="bindings/python"
+
+inherit distutils git
+
+
